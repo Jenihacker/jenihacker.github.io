@@ -1,0 +1,134 @@
+/*
+.pcards {
+    margin: 10px;
+    height: 500px;
+    width: 360px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to right, #232526, #414345);
+    color: #fff;
+    border-radius: 1.5rem 1.5rem;
+    border: 2px dashed #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.12);
+}
+
+.pcards::-webkit-scrollbar {
+    width: 0rem;
+}
+
+.pcards:hover {
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.pcards img {
+    width: 420px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 1.5rem 1.5rem 0 0;
+    object-fit: cover;
+    background-color: #29323c;
+    border-bottom: 1px solid #ffffff;
+}
+.pcard-det {
+    padding: 0 10px; 
+}
+.pcard-det h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.pcard-det p {
+    text-align: justify;
+    font-size: 1rem;
+}
+*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+ .pcards .container .card {
+	 position: relative;
+	 width: 300px;
+	 height: 400px;
+	 margin: 0 auto;
+	 background: #000;
+	 border-radius: 15px;
+	 display: flex;
+	 flex-wrap: wrap;
+}
+
+.pcards .container .content {
+	 margin: 0 20px;
+	 
+}
+.pcards .container .card .face {
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 justify-content: center;
+	 padding-top: 50px;
+}
+.pcards .container .card .face.face1 {
+	 box-sizing: border-box;
+	 border-radius: 1rem;
+	 background: linear-gradient(to right, #000428, #004e92);
+}
+.pcards  .container .card .face.face1 h2 {
+	 margin: 0;
+	 padding: 0;
+     text-align: center;
+     font-size: 1.2rem;
+     font-weight: 700;
+}
+.pcards  .container .card .face.face1 .det {
+	 background-color: #fff;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+}
+.pcards .container .card .face.face2 {
+	 transition: 0.5s;
+	 
+}
+.pcards .container .card .face.face2 h2 {
+	 margin: 0;
+	 padding: 0;
+	 font-weight: 700;
+	 font-size: 2.5em;
+     text-align: center;
+	 color: #ffffff;
+	 transition: 0.5s;
+	 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	 z-index: 10;
+}
+
+
+ .pcards .container .card:hover .face.face2 {
+	height: 20%;
+}
+ .pcards .container .card:hover .face.face2 h2 {
+	 font-size: 0em;
+}
+
+.pcards  .container .card:nth-child(1) .face.face2 {
+	 background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
+	 border-radius: 1rem;
+}
+
+
+@media (max-width:440px) {
+	.pcards .container .content {
+		margin: 0 60px;
+   }
+   .pcards  .container .card .face.face1 h2 {
+		font-size: 1rem;
+   }
+   .pcards  .container .card .face.face1 p {
+		font-size: 0.9rem;
+   }
+}
+ 
+ 
