@@ -43,7 +43,7 @@ function Navbar() {
       <nav>
         <div className="logo">
         <Link smooth to='#home'> <img src={ logo } alt="logo" /> </Link>
-          <button style={{height:"6vh",width:"5vh"}} id="menu" onClick={() => hide_menu()}>
+          <button style={{height:"2.5rem",width:"2.2rem"}} id="menu" onClick={() => hide_menu()}>
             <i class="fa-solid fa-bars"></i>
           </button>
         </div>
