@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 function Skills() {
   return (
     <div className='Skills' id='skills'>
-      <Fade right> 
+      <Fade bottom> 
       <h1>Skills & Experience</h1>
       <div className="container">
         <div className="content"> 
