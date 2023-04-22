@@ -55,7 +55,9 @@ button:hover {
 }
 
 .bg-contact3 {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 10vh 0;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +68,7 @@ button:hover {
 @media (max-width:480px) {
     .bg-contact3 {
         height: 130vh;
-        padding-bottom: 15vh;
+        padding-bottom: 10vh;
     }
 }
 

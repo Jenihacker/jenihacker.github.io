@@ -16,7 +16,7 @@ function Navbar() {
         document.getElementById(
           "menu"
         ).innerHTML = String.raw`<i class="fa-solid fa-bars"></i>`;
-        document.getElementsByTagName("nav")[0].style.height = "9%";
+        document.getElementsByTagName("nav")[0].style.height = "60px";
       }
     }
   };
@@ -31,7 +31,7 @@ function Navbar() {
       document.getElementById(
         "menu"
       ).innerHTML = String.raw`<i class="fa-solid fa-bars"></i>`;
-      document.getElementsByTagName("nav")[0].style.height = "9%";
+      document.getElementsByTagName("nav")[0].style.height = "60px";
     }
   };
 
