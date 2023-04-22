@@ -82,3 +82,24 @@
     }
 }
     
+@media (max-width:480px) {
+    .footer-elems {
+        padding: 5vh 0;
+    }
+    
+    .footer-elems h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer-elems p,.footer-elems li {
+        font-size: 1rem;
+    }
+    
+    .footer-elems .first-sec h2 {
+        font-size: 1rem;
+    }
+
+    .footer-elems .third-sec .social-links a{
+        margin-right: 10px;
+    }
+}

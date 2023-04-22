@@ -227,7 +227,7 @@
 
   .home {
     padding-top: 8vh;
-    height:auto;
+    height:120vh;
   }
   
   .hero {
@@ -270,11 +270,11 @@
 }
 
 .hero .details .details1 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
 }
 .hero .details .details1 h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-align: left;
 }
 
@@ -284,6 +284,10 @@
 
 .icons {
   text-align: center;
+}
+
+.hero .image {
+  padding-top: 5vh;
 }
 
 .hero .image img {
@@ -309,6 +313,7 @@ svg {
   .home {
     padding-top: 10vh;
     height:100vh;
+    padding-bottom: 10vh;
   }
   
   .hero {
@@ -418,10 +423,10 @@ svg {
   height: 110vh;
  }
  .hero .details .details1 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
  }
  .hero .details .details1 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 }
 
@@ -513,6 +518,7 @@ svg {
   .about {
     height: auto;
     padding-top: 5vh;
+    padding-bottom: 15vh;
   }
   
   .aboutdet {
@@ -520,8 +526,14 @@ svg {
     align-items: center;
   }
 
+  .aboutdet p {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+
   .abtimg {
     width: 100%;
+    margin-bottom: 5vh;
   }
 
   .abtsec {
@@ -535,6 +547,7 @@ svg {
     text-align: justify;
     height: auto;
     padding-top: 5vh;
+    padding-bottom: 15vh;
   }
 
   .aboutdet {
@@ -542,8 +555,14 @@ svg {
     align-items: center;
   }
 
+  .aboutdet p {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+
   .abtimg {
     width: 100%;
+    margin-bottom: 5vh;
   }
 
   .abtsec {
@@ -561,7 +580,7 @@ svg {
     text-align: justify;
     height: auto;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
   }
 
   .about h1 {
@@ -573,8 +592,14 @@ svg {
     align-items: center;
   }
 
+  .aboutdet p {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+
   .abtimg {
     width: 100%;
+    margin-bottom: 5vh;
   }
 
   .abtsec {
@@ -589,6 +614,7 @@ svg {
 @media (max-width:359px) {
   .about {
     padding-top: 10vh;
+    padding-bottom: 10vh;
     height: auto;
   }
   .about h1 {
@@ -596,6 +622,9 @@ svg {
   }
   .abtimg img{
     max-width: none;
+  }
+  .abtimg {
+    margin-bottom: 5vh;
   }
   .aboutdet {
     flex-direction: column;
