@@ -27,7 +27,7 @@
 
 .navbar nav .logo img {
   padding: 5px;
-  width: 120px;
+  width: 125px;
   height: 50px;
 }
 
@@ -111,7 +111,6 @@
 .hero .details .details1 h1 {
   font-weight: 500;
   font-size: 3.2vw;
-  margin: 0;
   color: var(--dark);
 }
 
@@ -318,7 +317,7 @@ svg {
 
   .home {
     padding-top: 10vh;
-    height:100vh;
+    min-height:100vh;
     padding-bottom: 10vh;
   }
   
@@ -462,7 +461,6 @@ svg {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  height:auto;
   padding-top: 15vh;
   background-image: url('/assets/itl.cat_material-design-desktop-wallpaper_737396.png');
 }
@@ -485,7 +483,7 @@ svg {
 }
 
 .abtsec {
-  width: 60%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
