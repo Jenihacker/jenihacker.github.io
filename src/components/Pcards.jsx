@@ -15,7 +15,7 @@ function Pcards({ image, title, details }) {
               </p>
             </div>
           </div>
-          <div className="face face2" style={{backgroundImage:`url(${image})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',objectFit:"cover"}}>
+          <div className="face face2" style={{backgroundImage:`url(${image})`,backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
           </div>
         </div>
       </div>

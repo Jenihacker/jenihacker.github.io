@@ -26,9 +26,8 @@
 }
 
 .navbar nav .logo img {
-  margin:3% 10%;
   padding: 5px;
-  width: 130px;
+  width: 120px;
   height: 50px;
 }
 
@@ -36,6 +35,12 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.navbar nav .logo a {
+  display: flex;
+  align-items: center;
+  padding: 0.5vh 1vw;
 }
 
 #menu {
@@ -345,8 +350,7 @@ svg {
   .navbar nav .logo a img {
     width:100px;
     height: 34px;
-    margin: 10px 0 0 2px;
-
+    margin-bottom: 2px;
     padding: 0;
   }
   
@@ -752,6 +756,6 @@ svg {
   font-size: 4rem;
   font-family: 'Montserrat',cursive;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  padding-bottom: 5vh;
 }

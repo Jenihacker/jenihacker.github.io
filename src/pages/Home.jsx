@@ -8,8 +8,8 @@ function Home() {
 
   return (
     <div className='home' id='home'>
-      <Fade top>
       <div className="hero">
+      <Fade top>
         <div className="details">
           <div className="details1">
             <h1>Hi There!</h1>
@@ -40,11 +40,13 @@ function Home() {
             </div>
           </div>
         </div>
+        </Fade>
+        <Fade top>
         <div className="image">
           <img src={image} alt="image" draggable="false" />
         </div>
+        </Fade>
       </div>
-      </Fade>
     </div>
     
   )
